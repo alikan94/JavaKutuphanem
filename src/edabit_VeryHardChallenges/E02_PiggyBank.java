@@ -53,9 +53,24 @@ public class E02_PiggyBank {
 
     }
 
-    private static int NumberOfDays(int i, int i1, int i2) {
-        int days =0;
+    private static int NumberOfDays(int cost, int savings, int start) {
+        int numberOfDays =0;
+        int artisMiktari=0;
+        int sum=0;
+        if (cost==savings){
+            return numberOfDays;
+        }
+        while (cost>savings+sum){
+            for (int i = 0; i < 7; i++) {
+                if (cost<=savings+sum) {
+                    return numberOfDays;
+                }
+                    sum += start + artisMiktari + i;
+                    numberOfDays++;
+            }
+            artisMiktari++;
+        }
 
-        return days;
+        return numberOfDays;
     }
 }
