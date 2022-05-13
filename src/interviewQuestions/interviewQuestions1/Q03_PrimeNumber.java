@@ -1,6 +1,7 @@
 package interviewQuestions1;
 
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 public class Q03_PrimeNumber {
     /*
@@ -25,6 +26,13 @@ public class Q03_PrimeNumber {
            if(asalMi) System.out.println("sayi asaldir");
            else System.out.println("sayi asal degildir");
        }else System.out.println("sayi asal degildir"); //bu else yi 0 ve 1 in asal sayi olmadigini gostermek icin ekledik
+
+
+        //Scanner scan = new Scanner(System.in);
+        //System.out.print("Bir sayi giriniz :");
+        //int sayi = scan.nextInt();
+//
+        //IntStream.rangeClosed(2,sayi).filter(2,)
     }
 
 }

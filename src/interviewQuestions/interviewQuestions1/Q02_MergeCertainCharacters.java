@@ -31,6 +31,9 @@ public class Q02_MergeCertainCharacters {
             output.append(temp.repeat(Math.max(0, sayi)));
             return output.toString();*/
 
+        // repeat tekrar tekrar yazdiriyor.
+        // çok iyi beeee
+
         return temp.repeat(Math.max(0, sayi));
     }
 
