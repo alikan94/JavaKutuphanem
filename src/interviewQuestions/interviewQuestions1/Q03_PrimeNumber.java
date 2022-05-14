@@ -1,4 +1,4 @@
-package interviewQuestions1;
+package interviewQuestions.interviewQuestions1;
 
 import java.util.Scanner;
 import java.util.stream.IntStream;
