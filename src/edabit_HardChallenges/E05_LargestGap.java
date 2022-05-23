@@ -2,7 +2,7 @@ package edabit_HardChallenges;
 
 import java.util.Arrays;
 
-public class E02_LargestGap {
+public class E05_LargestGap {
     public static void main(String[] args) {
         /*
         Given an array of integers, return the largest gap between the sorted elements of the array.
