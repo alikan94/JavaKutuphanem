@@ -2,7 +2,7 @@ package edabit_HardChallenges;
 
 import java.util.Arrays;
 
-public class C03_ConsecutiveNumbers {
+public class E03_ConsecutiveNumbers {
     /*
     Create a function that determines whether elements in an array can be re-arranged to form a consecutive list of numbers where each number appears exactly once.
         Examples
