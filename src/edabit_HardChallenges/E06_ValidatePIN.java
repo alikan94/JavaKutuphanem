@@ -1,6 +1,6 @@
 package edabit_HardChallenges;
 
-public class E04_ValidatePIN {
+public class E06_ValidatePIN {
     public static void main(String[] args) {
 
         //Create a function that will test if a string is a valid PIN or not via a regular expression.
